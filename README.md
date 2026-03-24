@@ -1,17 +1,24 @@
-# android_tv_remote_flutter
+# Rental Billing System
 
-A new Flutter project.
+A comprehensive rental billing and management system built with Flutter.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project provides a robust solution for managing rental services, billing, and customer information.
 
-A few resources to get you started if this is your first Flutter project:
+### Initial Setup
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+1.  Clone the repository:
+    ```bash
+    git clone git@github.com:mhafids/rental-billing-system.git
+    ```
+2.  Install dependencies:
+    ```bash
+    flutter pub get
+    ```
+3.  Run the application:
+    ```bash
+    flutter run
+    ```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+For more detailed information, please refer to the [online documentation](https://docs.flutter.dev/).
