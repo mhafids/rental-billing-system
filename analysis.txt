@@ -1,0 +1,27 @@
+Analyzing android_tv_remote_flutter...                          
+
+   info - The import of 'package:pointycastle/export.dart' is unnecessary because all of the used elements are also provided by the import of 'package:basic_utils/basic_utils.dart' - lib\core\protocol\certificate_generator.dart:3:8 - unnecessary_import
+  error - Too many positional arguments: 0 expected, but 1 found - lib\core\protocol\certificate_generator.dart:9:55 - extra_positional_arguments_could_be_named
+  error - The argument type 'String' can't be assigned to the parameter type 'int'.  - lib\core\protocol\certificate_generator.dart:19:7 - argument_type_not_assignable
+  error - Too many positional arguments: 3 expected, but 4 found - lib\core\protocol\certificate_generator.dart:20:7 - extra_positional_arguments_could_be_named
+  error - The named parameter 'publicKey' isn't defined - lib\core\protocol\certificate_generator.dart:21:7 - undefined_named_parameter
+   info - Don't invoke 'print' in production code - lib\core\protocol\pairing_session.dart:46:44 - avoid_print
+   info - 'publicKeyData' is deprecated and shouldn't be used. Use tbsCertificate.subjectPublicKeyInfo instead - lib\core\protocol\pairing_session.dart:102:41 - deprecated_member_use
+warning - This cast always throws an exception because the expression always evaluates to 'null' - lib\core\protocol\pairing_session.dart:104:79 - cast_from_null_always_fails
+   info - Don't invoke 'print' in production code - lib\core\protocol\remote_manager.dart:38:44 - avoid_print
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\ui\screens\discovery_screen.dart:45:45 - deprecated_member_use
+   info - Unnecessary use of multiple underscores - lib\ui\screens\discovery_screen.dart:65:53 - unnecessary_underscores
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\ui\screens\discovery_screen.dart:81:57 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\ui\screens\discovery_screen.dart:86:66 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\ui\screens\discovery_screen.dart:123:31 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\ui\screens\discovery_screen.dart:125:50 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\ui\screens\discovery_screen.dart:132:55 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\ui\screens\discovery_screen.dart:155:43 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\ui\screens\remote_screen.dart:65:27 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\ui\screens\remote_screen.dart:93:41 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\ui\screens\remote_screen.dart:122:31 - deprecated_member_use
+  error - The argument type 'BorderSide' can't be assigned to the parameter type 'BoxBorder?'.  - lib\ui\screens\remote_screen.dart:124:19 - argument_type_not_assignable
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\ui\screens\remote_screen.dart:124:50 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\ui\screens\remote_screen.dart:218:29 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\ui\screens\remote_screen.dart:271:35 - deprecated_member_use
+

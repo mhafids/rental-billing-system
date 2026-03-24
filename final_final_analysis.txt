@@ -1,0 +1,6 @@
+Analyzing android_tv_remote_flutter...                          
+
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\ui\screens\discovery_screen.dart:126:31 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\ui\screens\discovery_screen.dart:128:50 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\ui\screens\discovery_screen.dart:135:55 - deprecated_member_use
+
